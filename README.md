@@ -6,9 +6,8 @@ This application demonstrates the use case of Service Workers and Web Workers.
 - [Service Workers and Web Workers](#service-workers-vs-web-workers)
 - [Running the Application](#running-the-application)
 - [Installation](#installation)
-- [Usage](#usage)
 
-## Service Workers vs Web Workers
+## Service Workers and Web Workers
 
 ### Service Workers
 - **Implemented example 1**: Build a cache mechanism to serve pages in offline mode.
