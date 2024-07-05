@@ -1,9 +1,9 @@
 # Application Overview
 
-This application demonstrates the differences between Service Workers and Web Workers.
+This application demonstrates the use case of Service Workers and Web Workers.
 
 ## Table of Contents
-- [Service Workers vs Web Workers](#service-workers-vs-web-workers)
+- [Service Workers and Web Workers](#service-workers-vs-web-workers)
 - [Running the Application](#running-the-application)
 - [Installation](#installation)
 - [Usage](#usage)
