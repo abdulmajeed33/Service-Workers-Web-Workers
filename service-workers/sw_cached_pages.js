@@ -56,12 +56,12 @@ self.addEventListener('fetch', event => {
     let url = new URL(event.request.url);
     console.log('Service Worker: Fetching');
 
-    // Method 2: Cache only the request that are made by the user
-
+    
     if (mode === 'navigate' || (mode === 'no-cors' && url.origin === location.origin)) {
         event.respondWith(
             fetch(event.request)
             .then(response => {
+                // if we don't cache in the in install event then this is the best way to cache the request one by one that are made by the user
                     const resClone = response.clone();
                     caches.open(cacheName)
                         .then(cache => {
